@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * egg-http-proxy default config
+ * egg-proxy-plugin default config
  * @member Config#httpProxy
  * @property {String} SOME_KEY - some description
  */

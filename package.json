@@ -1,6 +1,6 @@
 {
-  "name": "egg-http-proxy",
-  "version": "1.0.1",
+  "name": "egg-proxy-plugin",
+  "version": "0.1.2",
   "description": "proxy middleware plugin for egg",
   "eggPlugin": {
     "name": "httpProxy"
@@ -14,10 +14,12 @@
     "http-proxy-middleware"
   ],
   "dependencies": {
-    "egg-path-matching": "^1.0.1",
-    "http-proxy-middleware": "^0.20.0",
+    "egg-path-matching": "^1.1.0",
     "koa2-connect": "^1.0.2",
     "lodash": "^4.17.15"
+  },
+  "peerDependencies": {
+    "http-proxy-middleware": ">=2.0.0"
   },
   "devDependencies": {
     "autod": "^3.1.0",
@@ -58,12 +60,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chunkai1312/egg-http-proxy.git"
+    "url": "git+https://github.com/zsjjs/egg-proxy.git"
   },
   "bugs": {
-    "url": "https://github.com/chunkai1312/egg-http-proxy/issues"
+    "url": "https://github.com/zsjjs/egg-proxy/issues"
   },
-  "homepage": "https://github.com/chunkai1312/egg-http-proxy#readme",
-  "author": "Chun-Kai Wang <chunkai1312@gmail.com>",
+  "homepage": "https://github.com/zsjjs/egg-proxy#readme",
+  "author": "zsj <534320302@qq.com>",
   "license": "MIT"
 }
